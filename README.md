@@ -2,8 +2,10 @@
 
 #### Change the env file
 
-put the url value where the picture is stored ( ex : https://****/picture.jpg)
-
+put the url value on url.env where the picture is stored, example : 
+```
+url =  https://****/picture.jpg
+```
 #### RUN the container
 ```
 docker-compose up -d --build 
